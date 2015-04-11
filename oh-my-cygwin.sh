@@ -9,7 +9,7 @@ APT_CYG="$(mktemp /tmp/apt-cyg.XXXXXXXX)"
 
 
 # install OH MY ZSH
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~cygwin/home/.oh-my-zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git /.oh-my-zsh
 
 # Create initial /etc/zshenv
 [[ ! -e /etc/zshenv ]] && echo export PATH=/usr/bin:\$PATH > /etc/zshenv
